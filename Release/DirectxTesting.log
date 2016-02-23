@@ -1,0 +1,24 @@
+﻿Build started 2/22/2016 4:09:41 PM.
+     1>Project "C:\Users\Aziz\Documents\Visual Studio 2015\Projects\DirectxTesting\DirectxTesting\DirectxTesting.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Level1.cpp
+         Level1.cpp
+     1>Level1.cpp(23): warning C4553: '==': operator has no effect; did you intend '='?
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aziz\Documents\Visual Studio 2015\Projects\DirectxTesting\Release\DirectxTesting.exe" /NOLOGO windowscodecs.lib d2d1.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Aziz\Documents\Visual Studio 2015\Projects\DirectxTesting\Release\DirectxTesting.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aziz\Documents\Visual Studio 2015\Projects\DirectxTesting\Release\DirectxTesting.lib" /MACHINE:X86 /SAFESEH Release\gameController.obj
+         Release\gameLevel.obj
+         Release\graphics.obj
+         Release\Level1.obj
+         Release\main.obj
+         Release\spriteSheet.obj
+         Generating code
+         2 of 47 functions ( 4.3%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         DirectxTesting.vcxproj -> C:\Users\Aziz\Documents\Visual Studio 2015\Projects\DirectxTesting\Release\DirectxTesting.exe
+     1>Done Building Project "C:\Users\Aziz\Documents\Visual Studio 2015\Projects\DirectxTesting\DirectxTesting\DirectxTesting.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.26
