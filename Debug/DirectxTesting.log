@@ -1,8 +1,12 @@
-﻿Build started 2/22/2016 3:58:07 PM.
+﻿Build started 2/23/2016 10:18:04 AM.
      1>Project "C:\Users\Aziz\Documents\Visual Studio 2015\Projects\DirectxTesting\DirectxTesting\DirectxTesting.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt spriteSheet.cpp
-         spriteSheet.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Level1.cpp main.cpp
+         main.cpp
+         Level1.cpp
+     1>c:\users\aziz\documents\visual studio 2015\projects\directxtesting\directxtesting\level1.cpp(23): warning C4553: '==': operator has no effect; did you intend '='?
+         Generating Code...
+     1>c:\users\aziz\documents\visual studio 2015\projects\directxtesting\directxtesting\main.cpp(77): warning C4715: 'wWinMain': not all control paths return a value
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aziz\Documents\Visual Studio 2015\Projects\DirectxTesting\Debug\DirectxTesting.exe" /INCREMENTAL /NOLOGO windowscodecs.lib d2d1.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Aziz\Documents\Visual Studio 2015\Projects\DirectxTesting\Debug\DirectxTesting.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aziz\Documents\Visual Studio 2015\Projects\DirectxTesting\Debug\DirectxTesting.lib" /MACHINE:X86 Debug\gameController.obj
          Debug\gameLevel.obj
@@ -15,4 +19,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.88
+Time Elapsed 00:00:01.30

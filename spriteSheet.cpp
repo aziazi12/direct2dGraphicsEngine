@@ -44,7 +44,7 @@ SpriteSheet::SpriteSheet(wchar_t* filename, Graphics* gfx)
 		);
 	
 	// Use the converter to create a D2D1Bitmap
-	ID2D1Bitmap* bmp; // This will be a member variable!
+	//ID2D1Bitmap* bmp; // This will be a member variable!
 	gfx->GetRenderTarget()->CreateBitmapFromWicBitmap(
 		wicConverter, // Converter
 		NULL, //D2D1_BITMAP_PROPERTIES
